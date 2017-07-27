@@ -1,11 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Домашнее задание 03</title>
-</head>
-<body>
-
 <?php
 
 $geolocationOfAnimals = array (
@@ -71,11 +63,9 @@ foreach ($array as $key => $value){
     echo "$key $value <br>";
 }
 
+
+
+
+
+
 ?>
-
-<form action="Array.php" method="POST">
-    <input name="myActionName" type="submit" value="Выполнить" />
-</form>
-
-</body>
-</html>
